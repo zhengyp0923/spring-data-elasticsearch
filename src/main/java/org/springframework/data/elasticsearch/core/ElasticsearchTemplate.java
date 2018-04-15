@@ -169,6 +169,11 @@ public class ElasticsearchTemplate implements ElasticsearchOperations, Applicati
 		return createIndexIfNotCreated(clazz);
 	}
 
+	/**
+	 * 创建索引
+	 * @param indexName
+	 * @return
+	 */
 	@Override
 	public boolean createIndex(String indexName) {
 		Assert.notNull(indexName, "No index defined for Query");
