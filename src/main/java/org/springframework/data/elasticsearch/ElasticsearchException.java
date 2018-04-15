@@ -23,6 +23,10 @@ import java.util.Map;
  * @author Rizwan Idrees
  * @author Mohsin Husen
  */
+
+/**
+ * 运行时期异常
+ */
 public class ElasticsearchException extends RuntimeException {
 
 	private Map<String, String> failedDocuments;
