@@ -111,7 +111,7 @@ import static org.springframework.util.CollectionUtils.isEmpty;
  */
 
 /**
- * Elasticsearch 模板
+ * Elasticsearch 模板1
  */
 public class ElasticsearchTemplate implements ElasticsearchOperations, ApplicationContextAware {
 

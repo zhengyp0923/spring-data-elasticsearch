@@ -15,10 +15,10 @@
  */
 package org.springframework.data.elasticsearch.repository;
 
-import java.io.Serializable;
-
 import org.springframework.data.repository.NoRepositoryBean;
 import org.springframework.data.repository.PagingAndSortingRepository;
+
+import java.io.Serializable;
 
 /**
  * @param <T>
@@ -27,6 +27,7 @@ import org.springframework.data.repository.PagingAndSortingRepository;
  * @author Mohsin Husen
  * @author Oliver Gierke
  */
+
 @NoRepositoryBean
 public interface ElasticsearchCrudRepository<T, ID extends Serializable> extends PagingAndSortingRepository<T, ID> {
 
